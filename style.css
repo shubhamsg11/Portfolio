@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.s1 video{
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -5;
+    margin-top: -270px;
+}
+     
+.s1 .e1{
+  padding-left: 7%;
+  margin-top: 175px;
+  margin-left: 536px;
+  color:whitesmoke;
+  font-size:  20px;
+  font-family: 'Cutive Mono', monospace;
+  animation-name:fadein;
+  animation-duration: 15s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  }
+.s1 .e2{
+  padding-left: 7%;
+  margin-left: 535px;
+  margin-top: 1px;
+  color:#f1ebefbd;
+  font: size 10px;
+  font-family: 'Cutive Mono', monospace;
+  animation-name:fadein;
+  animation-duration: 15s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  }
+
+
+#f1{
+  font-size: 54px;
+  font-weight: bolder;
+  }
+@keyframes fadein {
+  from {opacity:0}
+  to {opacity: 1;}  
+}
+
+
+.s1 .e2 .bol{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+
+li{
+  float:right;
+
+  }
+  
+#nav a{
+  display: block;
+  padding: 0px 28px;
+  color:white;
+  text-decoration: none;
+  animation-name:fadein;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+  font-family: 'Cutive Mono', monospace;
+  font-size: 24px;
+}
+a:hover{
+  border-top: 2px white solid;
+}
+/*
+.active a {
+  border-bottom: 2px white solid;
+}
+.a2 a{
+  border-bottom: 2px white solid;
+}
+.a3 a{
+  border-bottom: 2px white solid;
+}
+*/
+
+#nav{
+  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: -175px;
+   position: fixed ;
+   display: flex;
+   width: 100%;
+   background-color: rgba(2, 10,15, 2);
+   height: 35px;
+}
+#nav a{
+  margin-left: 25px;
+  margin-top: 0px;
+}
+/*#nav a.home{
+ border-bottom:white 2px solid;
+}*/
+/*#nav a.work{
+  border-bottom:white 2px solid;
+ }
+ #nav a.about{
+  border-bottom:white 2px solid;
+ }*/
+  
+.container{
+  background-color: grey;
+  background-image: url("foot.jpg");
+  height: 50px;
+  margin-top: 725px;
+}
+.container a{
+  text-decoration: none;
+  
+}
+.container img{
+  width: 30px;
+ 
+} 
+#ins{  width: 30px;
+  margin-left: 0px;
+  border-radius: 500px;
+  margin-top: -18px;
+  display: inline;
+}
+#fac{ width: 30px;
+  margin-left: 60px; 
+  margin-top: -30px;
+  border-radius: 500px;
+  display: inline;
+}
+ 
+ #quo{    width: 30px;
+  margin-left: 34px;
+  border-radius: 500px;
+  margin-top: -29px;
+  display: inline;
+}
+ #link{  width: 30px;
+  margin-left: 90px;
+  margin-top: -32px;
+  display: inline;
+}
+
+ #t2{
+  margin-top: -32px;
+  margin-left: 757px;
+  
+  font-size: 16px;
+  font-family: 'Poiret One', monospace;
+ }
+ #t1{  display: inline;
+  margin-left: 100px;
+  margin-top: 2;
+  font-size: 16px;
+  font-family: 'Poiret One', monospace;
+ }
+#social a:hover{
+  border-bottom: 2px solid black;
+}
+.s2 {
+  background-image: url('Evolution-.jpg');
+  background-size: cover;
+  height: 100%;
+  margin-top: -1px;
+  color: white ;
+}
+.s3 video{  position: relative;
+   top: 0;
+   left: 0;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     z-index: -10;
+     
+}
+
+#d1{
+  margin-top: -754px;
+  color: white;
+/* display: inline-block; */
+  border: 2px white solid;
+  
+}
+#d3{
+  display: inline-block;
+  border: 2px solid red;
+  width: 120px;
+  text-align: right;
+}
